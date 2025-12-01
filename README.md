@@ -32,6 +32,7 @@ The process list should update in real-time while the user is viewing it (if imp
 No extra text should be printed aside from the requested output.
 
 Example:
+```shell
 $ process_browser -l
 PID   CPU%   MEM%   NAME
 1123  3.2    1.1    firefox
@@ -47,7 +48,7 @@ Name: firefox
 Threads: 34
 Memory: 140MB
 CPU Time: 03:58:12
-
+```
 
 If an invalid command is used:
 
@@ -105,9 +106,9 @@ Behavior for all flag combinations
 Incorrect input handling
 
 All tests should run via:
-
+```bash
 make test
-
+```
 
 Unit testing is optional, but if implemented, add a description in Requirements.md including installation steps for the testing framework.
 
@@ -121,7 +122,7 @@ make
 The Makefile must also provide:
 
 install — install program system-wide
-
+``` bash
 sudo make install
 process_browser -h
 
@@ -131,7 +132,7 @@ uninstall — remove installed program
 sudo make uninstall
 process_browser -h
 command not found
-
+```
 
 clean — remove build artifacts (but not uninstall)
 
