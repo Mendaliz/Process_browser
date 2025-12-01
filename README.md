@@ -51,10 +51,10 @@ CPU Time: 03:58:12
 ```
 
 If an invalid command is used:
-
+```bash
 $ process_browser -k abcd
 Error: invalid PID
-
+```
 ## Project Structure
 
 The project must be organized into the following folders:
