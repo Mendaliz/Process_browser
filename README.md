@@ -125,10 +125,10 @@ install — install program system-wide
 ``` bash
 sudo make install
 process_browser -h
-
+```
 
 uninstall — remove installed program
-
+```bash
 sudo make uninstall
 process_browser -h
 command not found
